@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio17cond</title>
+</head>
+
+<body>
+    <script>
+        let frase = window.prompt("Escribe una frase");
+        let mitad = frase.length / 2;
+
+        if (frase.lenght % 2 === 0) {
+            console.log(frase.substring(mitad - 1, mitad + 1));
+        } else {
+            console.log(frase.substring(mitad, mitad + 1));
+        }
+    </script>
+</body>
+
+</html>

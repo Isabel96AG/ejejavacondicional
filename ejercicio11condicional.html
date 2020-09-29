@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio11condicional</title>
+</head>
+
+<body>
+    <script>
+        let numero1 = window.prompt("Escribe un numeroentero entre 25 y 75");
+        let numero2 = window.prompt("Escribe otro nuemro entero entre 25 y 75");
+        let num1 = parseInt(numero1);
+        let num2 = parseInt(numero2);
+
+        let a = numero1.substring(0, 1);
+        let b = numero1.substring(1);
+        let c = numero2.substring(0, 1);
+        let d = numero2.substring(1);
+        if ((num1 > 25 && num1 < 75) && (num2 > 25 && num2 < 75)) {
+            if ((a === c) || (a === d) || (c === a) || (c === d));
+
+
+            console.log("hay dos numeros iguales");
+
+
+        } else {
+            console.log("ninguno coincide");
+            (num1 < 25 && num1 > 75) && (num2 < 25 && num2 > 75);
+            console.log("los numeros no estan en ese rango");
+        }
+    </script>
+</body>
+
+</html>

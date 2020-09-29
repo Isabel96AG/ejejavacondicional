@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio25cond</title>
+</head>
+
+<body>
+    <script>
+        let nombre = (window.prompt("Escribe tu nombre"));
+        let dinero = parseInt(window.prompt("Escribe la cantidad que has ganado"));
+        let porcentaje = dinero * 5 / 100;
+
+        if (dinero > 500) {
+            console.log(nombre + " " + "" + (dinero + porcentaje));
+        } else {
+            console.log(nombre + " " + dinero);
+        }
+    </script>
+</body>
+
+</html>

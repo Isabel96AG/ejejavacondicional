@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio24cond</title>
+</head>
+
+<body>
+    <script>
+        let temperatura = window.prompt("Escribe una temperatura seguida de la letra C o de la letra F");
+        let temp1 = parseInt(temperatura);
+        let termino = "c";
+        let termino1 = "f";
+
+
+
+
+        if (temperatura.substring(temperatura.lenght - 1) === "c") {
+            console.log((temp1 * 9 / 5) + 32);
+        } else if (temperatura.substring(temperatura.lenght - 1) === "f") {
+            console.log(temp1 - 32 * 5 / 9);
+
+        } else {
+            console.log('No has puesto la letra c o f')
+        }
+    </script>
+</body>
+
+</html>

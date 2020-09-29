@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio23cond</title>
+</head>
+
+<body>
+    <script>
+        let nota1 = parseInt(window.prompt("Escribe nota examen1"));
+        let nota2 = parseInt(window.prompt("Escribe nota examen 2"));
+        let nota3 = parseInt(window.prompt("Escribe nota examen tres"));
+        let suma;
+        if (nota1 > nota2) {
+            suma = nota1 + nota3;
+        } else {
+            suma = nota2 + nota3;
+        }
+        if (suma < 5) {
+            console.log('La nota es ${suma}. Has suspendido');
+        } else if (suma < 6) {
+            console.log('La nota es ${suma}. Es un suficiente');
+        } else if (suma < 7) {
+            console.log('La nota es ${suma}.Es un Bien');
+        } else if (suma < 8) {
+            console.log('La nota es ${suma}. Es un notable');
+
+        } else if (suma < 9) {
+            console.log('La nota es ${suma}. Sobresaliente');
+        } else {
+            console.log('La nota es ${suma}. Matricula de Honor');
+        }
+    </script>
+</body>
+
+</html>
